@@ -1,3 +1,6 @@
-import mp3p
+import pygame
 
-mp3p.play(test.mp3)
+pygame.init()
+pygame.mixer.music.load('ex21.mp3')
+pygame.mixer.music.play()
+pygame.event.wait()
